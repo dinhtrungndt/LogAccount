@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style/home.css" rel="stylesheet" />
+    <link href="image/logo1.jpg" rel="shortcut icon" />
+    <link href="aos-master/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="aos-master/dist/aos.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Nguyễn Đình Trưng - Biography</title>
+  </head>
+
+  <body>
+    <header>
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
+        <div class="logo">
+          <a href="index.html"><img src="image/home.png" width="50px" /></a>
+          <nav>
+            <ul>
+              <li class="contact">
+                <a
+                  href="contact.html"
+                  style="font-family: 'Montserrat', sans-serif"
+                  >Contact</a
+                >
+              </li>
+              <li class="about">
+                <a
+                  href="about.html"
+                  style="font-family: 'Montserrat', sans-serif"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="battat" id="wrapper">
+            <input type="checkbox" name="" class="switch-toggle" id="light-dark">
+        </div>
+        </div>
+      <script>
+          var checkbox_toggle = document.getElementById('light-dark');
+          checkbox_toggle.addEventListener('change', function(){
+              document.body.classList.toggle('dark');
+          });
+      </script>
+      </div>
+    </header>
+    <main>
+
+      <!-- welcome -->
+      <div class="welcome-name">
+      <h1
+        class="welcome"
+        style="text-align: center; color: rgb(49, 80, 182)"
+      >
+        Welcome to my website
+        <h1 class="welcome-sao"
+        style="text-align: center; color: rgb(49, 80, 182)"
+      >
+      ⁂</h1>
+      <p class="name">Nguyễn Đình Trưng</p>
+    </div>
+    <!-- project -->
+    <div class="infor-skills">
+    <!-- infor -->
+      <div class="infor" data-aos="flip-left">
+          <p style="color: rgb(90, 117, 208);font-weight: bold;font-size: 30px;font-family: sans-serif;">Profile</p>
+          <p class="profile-ndt" style="font-size: 30px;font-family: sans-serif;">Nguyễn Đình Trưng
+            <img style="width: 24px;" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Twitter_Verified_Badge.svg" class="veried-logo">
+          </p>
+          <div class="infor1-avatar-content">
+          <div class="infor2-avatar-content" style="margin-top: 20px; display: flex;">
+            <img src="image/avatar.jpg" width="200px" style="border-radius: 100%;" />
+            <nav style="padding-left: 40px; font-family: 'Times New Roman', Times, serif;line-height: 1.5;">
+              <ul>
+                <li>
+                  My name is
+                  <span class="focus-blue">Nguyen Dinh Trung</span>.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  I was born in  <span class="focus-blue">2002</span> (21 years old).
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  I live in   <span class="focus-blue">Ho Chi Minh City</span>.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  Currently I'm <span class="focus-blue">a mobile and web developer, game developer, designer</span>.
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  Now, my purpose is to become a <span class="focus-blue"> professional programmer</span>.
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="lk">
+            <a target="_blank" href="https://www.facebook.com/dinhtrung.ndt"
+              ><img src="image/facebook.png" width="25px"
+            /></a>
+            <a target="_blank" href="https://www.instagram.com/dinhtrung.ndt"
+              ><img
+                src="image/Instagram.png"
+                width="25px"
+                style="margin-left: 10px"
+            /></a>
+            <a target="_blank" href="https://tiktok.com/dinhtrung.ndt"
+              ><img src="image/tiktok.png" width="25px" style="margin-left: 10px"
+            /></a>
+          </div>
+        </div>
+        </div>
+      <!-- skills -->
+      <div class="skills" data-aos="flip-right">
+        <p style="color: rgb(6, 21, 70);font-weight: bold;font-size: 30px;font-family: sans-serif;">Skills</p>
+        <div style="padding: 15px;">
+          <ul class="skills-list">
+            <li class="skills-item">
+              <div>
+                <img src="image/skills/c++.png" width="20">
+                C ++
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img src="image/skills/javascript.png" width="20">
+                JavaScript
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/react_native.png">
+                React Native
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/react_native.png">
+                ReactJS
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/nextjs.png">
+                NextJS
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/prisma.png">
+                Prisma
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/nodejs.png">
+                NodeJS
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/html.png">
+                HTML5
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/css3.png">
+                CSS3
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/bootstrap.png">
+                Bootstrap
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/tailwindcss.png">
+                TailwindCSS
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/python.png">
+                Python
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/java.png">
+                Java
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/sql.png">
+                SQL
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/unity.png">
+                Unity
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div>
+                <img  width="20" src="image/skills/flutter.png">
+                Flutter
+              </div>
+              <div class="rating-star">
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-checked fa fa-star"></i>
+                <i class="star-uncheck fa fa-star"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="learning-contact">
+
+    <!-- Learning -->
+    <div class="infor Learning" data-aos="fade-right">
+      <p style="color: white;font-size: 30px;font-family: sans-serif;">Learning</p>
+      <p class="cdfpt" style="font-size: 20px;color: rgb(100, 210, 210);font-weight: bold;font-family: sans-serif;">FPT Polytechnic
+      </p>
+      <p style="color: white;font-size: 16px;font-family: sans-serif;padding-top: 10px;">Study Time<span class="time-stude" style="padding-left: 50px;">2021 September - 2024 January</span> </p>
+      <div class="learning-content" style="margin-top: 10px;">
+        <nav style="padding-left: 40px; font-family: 'Times New Roman', Times, serif;line-height: 1.5;">
+          <ul>
+            <li>
+              Have good web and mobile design skills
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Have a good understanding of database design, API, object-oriented analysis and design,...
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Good time management, presentation and teamwork skills....
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Actively participate in activities and accept outside work and complete the job well
+            </li>
+          </ul>
+          </nav>
+      </div>
+    </div>
+    <!-- contact -->
+    <div class="infor contact" data-aos="fade-left">
+      <p class="contact-p" style="color: white;font-size: 30px;font-family: sans-serif;">Contact</p>
+      <p class="contact-sao"
+      style="text-align: center; color: rgb(49, 80, 182)"
+    >
+    ⁂</p>
+      <p style="color: white;padding-top: 10px;padding-left: 5px;"><i class="fa fa-map-marker" style="color: white;padding-right: 10px;font-size: 20px;" aria-hidden="true"></i>TP.HCM, VietNam</p>
+      <p style="color: white;padding-top: 3px;padding-left: 5px;"><i class="fa fa-mobile" style="color: white;padding-right: 10px;font-size: 23px;" aria-hidden="true"></i>(+84) 889.541.507</p>
+      <p style="color: white;padding-top: 3px;padding-left: 5px;"><i class="fa fa-envelope" style="color: white;padding-right: 10px;font-size: 15px;" aria-hidden="true"></i>nguyendinhtrung.it@gmail.com</p>
+      <a  style="color: rgb(45, 67, 214);padding-top: 3px;margin-top: 10px;padding-left: 5px; text-decoration: none;" href="https://github.com/dinhtrungndt" target="_blank"><i class="fa fa-github" style="color: white;padding-right: 10px;font-size: 20px;" aria-hidden="true"></i>https://github.com/dinhtrungndt</a>
+      <p></p>
+      <a  style="color: rgb(45, 67, 214);padding-top: 3px;margin-top: 10px;padding-left: 5px; text-decoration: none;" href="https://facebook.com/dinhtrung.ndt" target="_blank"><i class="fa fa-facebook" style="color: white;padding-right: 10px;font-size: 20px;" aria-hidden="true"></i>https://facebook.com/dinhtrung.ndt</a>
+      <p></p>
+      <a  style="color: rgb(45, 67, 214);margin-top: 10px;padding-left: 5px; text-decoration: none;" href="https://instagram.com/dinhtrung.ndt" target="_blank"><i class="fa fa-instagram" style="color: white;padding-right: 10px;font-size: 20px;" aria-hidden="true"></i>https://instagram.com/dinhtrung.ndt</a>
+
+    </div>
+</div>
+
+<div class="message" data-aos="flip-down">
+  <div class="new" data-aos="flip-down">
+      <h1 style="font-size: 50px;color: white;"> Contact here </h1>
+      <p style="font-family: 'Josefin Slab', serif; color:black; font-size: 20px;;color: white" >If you don't want to read it, you can send a quick message here!</p> <br> <br>
+  </div>
+ <form method="POST" action="https://formsubmit.co/dinhtrung.lake@gmail.com" data-aos="flip-down">
+  <input class="input1" type="text" id="name" name="name" style="font-family: 'Montserrat Alternates', sans-serif; color: #000000;" placeholder="Your Name" required><br><br>
+  <input class="input1" type="email" id="email" name="email" style="font-family: 'Montserrat Alternates', sans-serif; color: #000000;" placeholder="Your email" required><br><br>
+  <div>
+    <textarea class="input2" placeholder="Content" id="message" name="message"></textarea>
+  </div>
+  <input class="input3" type="submit" value="SEND MESSAGE" style="font-family: 'Montserrat Alternates', sans-serif;">
+  <input type="hidden" name="_next" value="http://127.0.0.1:5500/LogAccount/sendmail.html">
+</form>
+
+</div>
+
+</main>
+                  <footer>
+                    <div class="footer-backgound">
+
+                      <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">CODE IS MY LIFE</h1>
+                      <h4 style="font-family: 'themify';color: rgb(28, 172, 255);font-size: 21px;">Nguyễn Đình Trưng</h4>
+                      <p class="footer-learning" style="margin-bottom: 5px;color: rgb(220, 212, 201);font-style: italic;">License: the content based on 90% truth, refer to
+                        Luc Thien Phong, SilverBoss, VtxTeam, Codelearn and Vietrux landing</p>
+                      <div class="social-list">
+                        <a href="https://www.facebook.com/dinhtrung.ndt" target="_blank"><img src="image/facebook.png" width="25px"
+                          /></a>
+                        <a href="https://github.com/dinhtrungndt" target="_blank"><img
+                          src="image/github.png"
+                          width="25px"
+                          style="margin-left: 10px"
+                      /></a>
+                        <a href="mailto:nguyendinhtrung.it@gmail.com" target="_blank"><img
+                          src="image/gmail.png"
+                          width="25px"
+                          style="margin-left: 10px"
+                      /></a>
+                        <a href="https://www.instagram.com/dinhtrung.ndt/" target="_blank"><img
+                          src="image/Instagram.png"
+                          width="25px"
+                          style="margin-left: 10px"
+                      /></a>
+                      </div>
+                      <p class="copyright">© 2023 copyright by <a style="color: rgb(118, 200, 200);" href="https://www.facebook.com/dinhtrung.ndt" target="_blank">NDT</a> All rights reserved</p>
+                      <div class="footer-learning">-- this website build with HTML, CSS, JavaScript and Bootstrap --</div>
+                    </div>
+                    </footer>
+  </body>
+  <style>
+    img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{display:none !important;}
+  </style>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./js/sendmail.js"></script>
+</html>

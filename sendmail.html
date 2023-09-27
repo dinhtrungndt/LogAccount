@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style/sendmail.css" rel="stylesheet" />
+    <link href="image/logo1.jpg" rel="shortcut icon" />
+    <link href="aos-master/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="aos-master/dist/aos.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Email sent successfully !</title>
+  </head>
+
+  <body>
+    <header>
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <div class="logo">
+          <a href="index.html"><img src="image/home.png" width="50px" /></a>
+          <nav>
+            <ul>
+              <li class="contact">
+                <a
+                  href="contact.html"
+                  style="font-family: 'Montserrat', sans-serif"
+                  >Contact</a
+                >
+              </li>
+              <li class="about">
+                <a
+                  href="about.html"
+                  style="font-family: 'Montserrat', sans-serif"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="lk">
+            <a target="_blank" href="https://www.facebook.com/dinhtrung.ndt"
+              ><img src="image/facebook.png" width="25px"
+            /></a>
+            <a target="_blank" href="https://www.instagram.com/dinhtrung.ndt"
+              ><img
+                src="image/Instagram.png"
+                width="25px"
+                style="margin-left: 10px"
+            /></a>
+            <a target="_blank" href="https://tiktok.com/dinhtrung.ndt"
+              ><img
+                src="image/tiktok.png"
+                width="25px"
+                style="margin-left: 10px"
+            /></a>
+          </div>
+          <div class="battat" id="wrapper">
+            <input
+              type="checkbox"
+              name=""
+              class="switch-toggle"
+              id="light-dark"
+            />
+          </div>
+        </div>
+        <script>
+          var checkbox_toggle = document.getElementById("light-dark");
+          checkbox_toggle.addEventListener("change", function () {
+            document.body.classList.toggle("dark");
+          });
+        </script>
+      </div>
+    </header>
+    <main>
+      <!-- welcome -->
+      <div class="welcome-name">
+        <p class="name">Email sent successfully !</p>
+      </div>
+    </main>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+  <style>
+    img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+    {
+      display: none !important;
+    }
+  </style>
+</html>
